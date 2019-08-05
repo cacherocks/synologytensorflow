@@ -1,2 +1,3 @@
-# synologytensorflow
-Wheel for Tensor Flow on Synology DS918+
+# Synology DS918+ TensorFlow Wheel
+
+
