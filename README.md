@@ -1,6 +1,6 @@
 # Synology DS918+ TensorFlow Wheel
 
-Works with Home Assistant 0.96.5 (Python 3.7.4).
+Works with Docker Home Assistant 0.96.5 (Python 3.7.4).
 
 ## Wheel Specs:
 * TensorFlow 1.14.1
