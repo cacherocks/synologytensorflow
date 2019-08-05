@@ -16,23 +16,23 @@ Works with Docker Home Assistant 0.96.5 (Python 3.7.4).
 
 ## Install:
 
-1. Download object_detection.zip, unzip & copy to:
+**1. Download object_detection.zip, unzip & copy to:**
 ```
 /HA config dir/tensorflow/object_detection/
 ```
-2. Download recommended model & copy to:
+**2. Download recommended model & copy to:**
 ```
 /HA config dir/tensorflow/faster_rcnn_inception_v2_coco_2018_01_28/
 ```
-3. Download wheel & copy to:
+**3. Download wheel & copy to:**
 ```
 /HA config dir/tensorflow/
 ```
-4. Create tmp folder:
+**4. Create tmp folder:**
 ```
 /HA config dir/tensorflow/tmp/
 ```
-5. Edit HA config:
+**5. Edit HA config:**
 ```
 image_processing:
   - platform: tensorflow
@@ -85,8 +85,10 @@ image_processing:
         - hair drier
         - toothbrush
 ```
-5. Install wheel inside HA docker container via terminal: 
+**5. Install wheel inside HA docker container via terminal: **
 ```
 docker exec -it homeassistant  /bin/bash
 pip3 install /config/tensorflow/tensorflow-1.14.1-cp37-cp37m-linux_x86_64.whl
 ```
+
+**6. Reboot HA**
