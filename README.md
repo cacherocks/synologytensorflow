@@ -3,13 +3,13 @@
 Works with Home Assistant 0.96.5 (Python 3.7.4).
 
 ## Wheel Specs:
-* ul TensorFlow 1.14.1
-* ul Python 3.7
-* ul No AVX instruction set
+* TensorFlow 1.14.1
+* Python 3.7
+* No AVX instruction set
 
 ## Built on:
-* ul DSM 6.2.2-24922 Update 2
-* ul INTEL Celeron J3455
+* DSM 6.2.2-24922 Update 2
+* INTEL Celeron J3455
 
 Install inside HA docker container: 
 ```
